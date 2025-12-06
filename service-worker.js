@@ -2,7 +2,7 @@ const CACHE_NAME = "CrossBox-cache-v7";
 
 const URLS_TO_CACHE = [
   "./",
-  "./index.html",
+  "./index2.html",
   "./manifest.json",
   "./imagens/crossbox_logo.png"
 ];
@@ -76,4 +76,5 @@ self.addEventListener("fetch", (event) => {
     })
   );
 });
+
 
